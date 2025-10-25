@@ -23,7 +23,7 @@ Climate-aware real estate investment intelligence platform powered by AI.
 - Leaflet Maps
 - Recharts
 
-**Backend**
+**Backend** *(coming soon)*
 - FastAPI (Python)
 - PostgreSQL
 - Redis
@@ -40,3 +40,51 @@ Climate-aware real estate investment intelligence platform powered by AI.
 
 ## Getting Started
 ```bash
+# Clone the repository
+git clone https://github.com/AlexJoon/sustainyield-ai.git
+cd sustainyield-ai
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+# Edit .env.local with your API keys
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+## Project Structure
+```
+sustainyield-ai/
+├── app/                 # Next.js pages
+│   ├── (auth)/         # Auth pages
+│   ├── (dashboard)/    # Dashboard
+│   └── page.tsx        # Landing page
+├── components/         # React components
+├── lib/               # Utilities
+├── types/             # TypeScript types
+└── .env.local         # Environment variables
+```
+
+## 🧪 Scripts
+```bash
+npm run dev      # Development server
+npm run build    # Production build
+npm run start    # Start production
+npm run lint     # Lint code
+```
+
+## License
+
+MIT
+
+## Author
+
+**Alex Joon**
+
+- GitHub: [@AlexJoon](https://github.com/AlexJoon)
+- Project: [SustainYield AI](https://github.com/AlexJoon/sustainyield-ai)
